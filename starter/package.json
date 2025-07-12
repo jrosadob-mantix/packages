@@ -7,10 +7,15 @@
     "private": true,
     "scripts": {
         "ng": "ng",
-        "start": "ng serve",
+        "start": "ng serve --port=4201",
         "build": "ng build",
         "watch": "ng build --watch --configuration development",
         "test": "ng test"
+    },
+    "engine": {
+        "node": "22.11.0",
+        "npm": "10.9.0",
+        "ng": "19.2.0"
     },
     "dependencies": {
         "@angular/animations": "19.0.5",
